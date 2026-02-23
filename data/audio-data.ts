@@ -7,13 +7,13 @@ export interface AudioItem {
 }
 
 export const audioList: AudioItem[] = [
-  {
-    id: 1,
-    title: "Lời giới thiệu",
-    src: "/audios/loi-gioi-thieu.mp3",
-    description: "Giới thiệu tổng quan về di tích.",
-    background: "/images/bg1.jpg",
-  },
+//   {
+//     id: 1,
+//     title: "Lời giới thiệu",
+//     src: "/audios/loi-gioi-thieu.mp3",
+//     description: "Giới thiệu tổng quan về di tích.",
+//     background: "/images/bg1.jpg",
+//   },
   {
     id: 2,
     title: "Đình Ngọc Trục",
