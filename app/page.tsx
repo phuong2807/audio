@@ -8,10 +8,9 @@ export default function Home() {
 
   return (
     <main
-      className="min-h-screen  bg-no-repeat
+      className="min-h-dvh  bg-no-repeat
     bg-center
-    bg-contain
-    md:bg-cover flex items-center justify-center px-4"
+    bg-cover flex items-center justify-center px-4"
       style={{ backgroundImage: "url('/images/home-bg.jpg')" }}
     >
       <div className="w-full max-w-md space-y-4">
