@@ -8,7 +8,10 @@ export default function Home() {
 
   return (
     <main
-      className="min-h-screen bg-cover bg-center flex items-center justify-center px-4"
+      className="min-h-screen  bg-no-repeat
+    bg-center
+    bg-contain
+    md:bg-cover flex items-center justify-center px-4"
       style={{ backgroundImage: "url('/images/home-bg.jpg')" }}
     >
       <div className="w-full max-w-md space-y-4">
@@ -34,14 +37,10 @@ export default function Home() {
             "
           >
             {/* Icon play */}
-            <div className=" p-2 rounded-full">
-              ▶
-            </div>
+            <div className=" p-2 rounded-full">▶</div>
 
             {/* Title */}
-            <p className="text-sm font-light line-clamp-1">
-              {item.title}
-            </p>
+            <p className="text-sm font-light line-clamp-1">{item.title}</p>
           </button>
         ))}
       </div>

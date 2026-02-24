@@ -15,7 +15,10 @@ export default function AudioDetail() {
 
   return (
     <main
-      className="min-h-screen bg-cover bg-center text-white flex flex-col justify-between"
+      className="min-h-screen  bg-no-repeat
+    bg-center
+    bg-contain
+    md:bg-cover text-white flex flex-col justify-between"
       style={{ backgroundImage: `url(${audioItem.background})` }}
     >
       <div className="p-4">
